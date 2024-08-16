@@ -7,6 +7,11 @@
     "wdth" 100;
 }
 
+/* *** group color*** */
+.color{
+    color: #0D1321;
+    text-decoration: none;
+}
 
 /********** top of main function ********/
 .resume{
@@ -70,12 +75,12 @@ header{
 .extra{
     width: 1140px;
     margin: 0 auto;
-    background: #f8f5f5;
+    background: #f8f7f7;
     border-radius: 16px;
 }
 .web{
     width: 950px;
-    margin: 80px auto;
+    margin: 90px auto;
 
 }
 .web-title{
@@ -97,7 +102,7 @@ header{
     background-color: #FFFFFF;
     gap: 100px;
     border-radius: 16px;
-    background-image: repeating-linear-gradient(to right,white ,#f8f5f5);
+    background-image: repeating-linear-gradient(to right,white ,#f8f7f7);
 }
 .change-div{
     margin: 48px;
@@ -118,7 +123,7 @@ header{
 }
 .change-button{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 12px 20px;
     border: 1px solid;
 }
@@ -130,7 +135,7 @@ header{
     margin-top: 32px;
     border-radius: 16px;
     margin-bottom: 32px;
-    background-image: repeating-linear-gradient(to right,#f8f5f5,#FFFFFF);
+    background-image: repeating-linear-gradient(to right,#f8f7f7,#FFFFFF);
 }
 .world-div1{
    margin: 48px;
@@ -151,7 +156,7 @@ header{
 }
 .world-button{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 12px 20px;
     border: 1px solid;
 }
@@ -161,7 +166,7 @@ header{
     gap: 133px;
     background-color: #FFFFFF;
     border-radius: 16px;
-    background-image: repeating-linear-gradient(to right,white ,#f8f5f5);
+    background-image: repeating-linear-gradient(to right,white ,#f8f7f7);
 }
 .system-heading{
     font-size: 24px;
@@ -175,7 +180,7 @@ header{
 }
 .system-button{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 12px 20px;
     border: 1px solid;
 }
@@ -188,4 +193,86 @@ header{
 .for-margin-buttom{
     padding-bottom: 75px;
 }
+/* *********** section 2 ************* */
+.inspiration{
+    text-align: center;
+    margin-bottom: 150px;
+}
+.inspiration-heading{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.inspiration-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.inspiration-video{
+    /* padding: 32px; */
+    margin: 32px;
+    border-radius: 16px;
+    border: 1px solid;
+}
+.inspiration-midia{
+    width: 1150px;
+    border: 1px solid #c8c4c4;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+/* *************** section 3 *************/
+.target{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.target-heading{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.target-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.target-language{
+    display: flex;
+    margin: 0 auto;
+    gap: 24px;
+    width: 1150px;
+}
+.about-language1{
+    background-color: #faefe9;
+    width: 362px;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: start;
+}
+.about-language2{
+    width: 360px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #eaeffc;
+    text-align: start;
+    border: none;
+}
+.about-language3{
+    width: 360px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #fbfaed;
+    text-align: start;
+    border: none;
+}
+.language-anchor{
+    color: #0D1321;
+    font-weight: 700;
+    border: none;
+}
+
 
