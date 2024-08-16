@@ -1,3 +1,13 @@
+
+.embed{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
 /********** top of main function ********/
 .resume{
     display: flex;
@@ -13,6 +23,7 @@
     font-size: 20px;
     font-weight: 600;
     padding: 17px 24px;
+    margin-bottom: 36px;
 }
 .button-title{
     margin-top: 38px;
@@ -22,5 +33,91 @@
 /* ********* header style ********** */
 header{
     background-image: url('../assets/Hero-bg.png');
-    height: 652px;
+    text-align: center;
+    margin-bottom: 74px;
 }
+.header-pic{
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+.header-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+    width: 1000px;
+    margin: 24px auto;
+
+}
+.header-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    width: 852px;
+    margin: 0px auto;
+}
+.header-button{
+    margin-top: 32px;
+}
+.magic-button{
+    font-size: 20px;
+    padding: 21px 30px;
+    background-color:#0D1321 ;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom:45px ;
+}
+/* ***********  main style part 1 ************* */
+.extra{
+    width: 1140px;
+    margin: 0 auto;
+    background: rgb(248, 245, 245);
+    border-radius: 16px;
+}
+.web{
+    width: 950px;
+    margin: auto;
+}
+.web-title{
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 50px;
+    text-align: center;
+}
+.web-paragraph{
+    font-size: 16px;
+    margin-top: 24px;  
+    font-weight: 400;
+    text-align: center;
+    color: #0D1321;
+}
+/************ code of extra - change ********** */
+.change{
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 100px;
+    border-radius: 16px;
+}
+.change-div{
+    margin: 48px;
+}
+.change-image{
+    width: 275px;
+    width: 240px;
+}
+.change-heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.change-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.change-button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+/* **********code of extra-world *********** */
+
