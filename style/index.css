@@ -70,12 +70,13 @@ header{
 .extra{
     width: 1140px;
     margin: 0 auto;
-    background: rgb(248, 245, 245);
+    background: #f8f5f5;
     border-radius: 16px;
 }
 .web{
     width: 950px;
-    margin: auto;
+    margin: 80px auto;
+
 }
 .web-title{
     font-size: 32px;
@@ -96,6 +97,7 @@ header{
     background-color: #FFFFFF;
     gap: 100px;
     border-radius: 16px;
+    background-image: repeating-linear-gradient(to right,white ,#f8f5f5);
 }
 .change-div{
     margin: 48px;
@@ -118,6 +120,72 @@ header{
     font-size: 20px;
     font-weight: 600;
     padding: 12px 20px;
+    border: 1px solid;
 }
 /* **********code of extra-world *********** */
+.world{
+    display: flex;
+    gap: 32px;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+    background-image: repeating-linear-gradient(to right,#f8f5f5,#FFFFFF);
+}
+.world-div1{
+   margin: 48px;
+}
+.world-div2{
+    margin-top: 58px;
+    margin-right: 150px;
+}
+.world-heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.world-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.world-button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid;
+}
+/* ************ code of extra-system *************** */
+.system{
+    display: flex;
+    gap: 133px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    background-image: repeating-linear-gradient(to right,white ,#f8f5f5);
+}
+.system-heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.system-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.system-button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid;
+}
+.system-div1{
+    margin: 60px 48px;
+}
+.system-image{
+    margin: 48px;
+}
+.for-margin-buttom{
+    padding-bottom: 75px;
+}
 
