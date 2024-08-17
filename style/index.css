@@ -278,11 +278,10 @@ header{
 }
 /* ************** section 4 ********************* */
 .support{
-    text-align: center;
     background-image:url('../assets/handshake.jpg');
-    width: 1140px;
+    text-align: center;
+    /* width: 1140px; */
     border-radius: 16px;
-    margin: 0 auto;
     margin-bottom: 80px;
 }
 .support-heading{
@@ -310,6 +309,7 @@ header{
     font-size: 16px;
     padding: 19px 215px 19px 20px;
     border: none;
+    color: #FFFFFF;
     border-radius: 8px;
 }
 .support-submit{
@@ -338,4 +338,8 @@ footer{
     margin-left: 24px;
 }
 
-
+.xyz{
+    background: url('../assets/handshake.jpg');
+    background-size: cover;
+    height: 550px;
+}
