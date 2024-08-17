@@ -274,5 +274,48 @@ header{
     font-weight: 700;
     border: none;
 }
+/* ************** section 4 ********************* */
+.support{
+    text-align: center;
+    background-image:url('../assets/handshake.jpg');
+    width: 1140px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.support-heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 64px;
+}
+.support-paragraph{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    width: 600px;
+    margin: 0 auto;
+}
+.support-button{
+    margin-top: 24px;
+    padding-bottom: 64px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.support-input{
+    width: 400px;
+    font-size: 16px;
+    padding: 19px 215px 19px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.support-submit{
+    padding: 17px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600px;
+    border: none;
+}
 
 
