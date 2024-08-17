@@ -280,7 +280,11 @@ header{
 .support{
     background-image:url('../assets/handshake.jpg');
     text-align: center;
-    /* width: 1140px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1140px;
+    margin: 0 auto;
     border-radius: 16px;
     margin-bottom: 80px;
 }
