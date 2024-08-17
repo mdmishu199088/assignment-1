@@ -1,10 +1,8 @@
 
-.embed{
-  font-family: "Open Sans", sans-serif;
+.azeret-mono{
+  font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 /* *** group color*** */
